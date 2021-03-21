@@ -1,0 +1,498 @@
+* {
+    font-family: "Nunito Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+#header {
+    width: 100vw;
+    height: 50vw;
+    background-color: transparent;
+    background-image: url(../images/image-trim.svg);
+    background-repeat: no-repeat;
+    background-size: 100vw auto;
+    background-position: center bottom;
+}
+    #header-brightness {
+        display: block;
+        position: absolute;
+        background: inherit;
+        background-position: inherit;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 12vw;
+        filter: brightness(70%);
+    }
+    #header-blur {
+        display: block;
+        position: absolute;
+        background: inherit;
+        background-position: inherit;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 13vw;
+        filter: blur(8px);
+    }
+    #header nav {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+    }
+    #header nav a {
+        float: left;
+        background-color: transparent;
+        padding: 0 4vw;
+        color: white;
+    }
+    #header nav a img {
+        width: 14vw;
+        height: auto;
+        background-color: transparent;
+    }
+    #header nav ul {
+        float: right;
+        background-color: transparent;
+        border-radius: 2vw;
+    }
+    #header nav ul li {
+        width: 12.5vw;
+        float: left;
+        list-style: none;
+        position: relative;
+        background-color: transparent;
+    }
+    #header nav ul li:hover ul {
+        display: block;
+    }
+    #header nav ul li a {
+        display: block;
+        font-size: 1.25vw;
+        padding: 6vw 0vw 2vw 0vw;
+        text-decoration: none;
+        background-color: transparent;
+        text-align: center;
+        font-weight: bolder;
+    }
+    #header nav ul li a:hover {
+        color: #00b8a3;
+    }
+    #header nav ul li ul {
+        display: none;
+        position: absolute;
+        background-color: transparent;
+        top: 5vw;
+        left: 0px;
+        float: none;
+        left: -3vw;
+    }
+    #header nav ul li ul li{
+        width: 12vw;
+        display: block;
+        background-color: transparent;
+        top: 4vw;
+    }
+    #header nav ul li ul li a {
+    padding: 1vw 0;
+    float: none;
+    }
+    #header #title {
+        width: 100vw;
+        top: 22vw;
+        font-weight: bold;
+        position: absolute;
+        display: block;
+        font-size: 4vw;
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+        text-align: center;
+        cursor: default;
+    }
+#footer {
+    background-color: black;
+    width: 100vw;
+    height: 38vw;
+}
+    #footer #socials {
+        width: 30vw;
+        height: 35vw;
+        background-color: transparent;
+        float: left;
+    }
+        #footer #socials li {
+            display: block;
+            position: relative;
+            width: 10vw;
+            height: 10vw;
+            background-color: white;
+            text-align: center;
+            font-size: 5vw;
+            border-radius: 50%;
+        }
+        #footer #socials #title {
+            display: block;
+            position: relative;
+            width: 30vw;
+            height: 5vw;
+            background-color: transparent;
+            color: white;
+            text-align: center;
+            font-size: 2vw;
+            padding: 2vw 0 0 0;
+            cursor: default;
+        }
+        #footer #socials #insta {
+            left: 10vw;
+            top: 2.5vw;
+        }
+        #footer #socials #fb {
+            left: 10vw;
+            top: 5.5vw;
+        }
+        #footer #socials #insta:hover {
+            opacity: 0.7;
+        }
+        #footer #socials #fb:hover {
+            opacity: 0.7;
+        }
+        #footer #socials #insta a {
+            padding: 2.5vw 2.9vw;
+            color: black;
+            background-color: transparent;
+            font-size: 5vw;
+            text-decoration: none;
+            border-radius: 50%;
+        }
+        #footer #socials #fb a {
+            padding: 2.5vw 3.5vw;
+            color: black;
+            background-color: transparent;
+            font-size: 5vw;
+            text-decoration: none;
+            border-radius: 50%;
+        }
+    #footer form {
+        display: block;
+        position: absolute;
+        left: 30vw;
+        width: 40vw;
+        height: 35vw;
+        background-color: transparent;
+    }
+        #footer form #title{
+            display: block;
+            position: relative;
+            width: 40vw;
+            font-size: 2vw;
+            padding: 2vw 0 0 0;
+            text-align: center;
+        }
+        #footer form label {
+            font-size: 1vw;
+            display: block;
+            position: relative;
+            height: 2vw;
+            width: 40vw;
+            background-color: transparent;
+            color: white;
+            padding: 2vw 0 0 0;
+            text-align: center;
+        }
+        #footer form input {
+            font-size: 1vw;
+            display: block;
+            position: relative;
+            left: 2.5vw;
+            width: 35vw;
+            height: 3vw;
+            background-color: transparent;
+            color: white;
+            border-color: white;
+            border-radius: 0.5vw;
+        }
+        #footer form textarea {
+            font-size: 1vw;
+            display: block;
+            position: relative;
+            left: 2.5vw;
+            width: 35vw;
+            height: 5vw;
+            background-color: transparent;
+            color: white;
+            border-color: white;
+            border-radius: 0.5vw;
+            resize: none;
+        }
+        #footer form #submit {
+            display: block;
+            position: relative;
+            top: 2vw;
+            left: 15vw;
+            width: 10vw;
+            height: 3vw;
+            background-color: red;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        #footer form #submit:hover {
+        opacity: 0.9;
+    }
+#footer #sitemap {
+    width: 30vw;
+    height: 35vw;
+    background-color: transparent;
+    float: right;
+}
+        #footer #sitemap #title {
+            display: block;
+            position: relative;
+            width: 30vw;
+            height: 5vw;
+            background-color: transparent;
+            color: white;
+            text-align: center;
+            font-size: 2vw;
+            cursor: default;
+        }
+        #footer #sitemap li {
+            height: 3vw;
+            width: 30vw;
+        }
+        #footer #sitemap li a {
+            color: white;
+            display: block;
+            position: relative;
+            background-color: transparent;
+            text-align: center;
+            font-size: 1vw;
+            text-decoration: none;
+        }
+    #footer #copyright {
+        display: block;
+        position: relative;
+        background-color: transparent;
+        color: white;
+        font-size: 1vw;
+        text-align: center;
+        height: 3vw;
+        top: 35vw;
+        padding: 0 39vw;
+    }
+#image-trim {
+    display: block;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: 100vw auto;
+    background-position: center;
+    height: 71vw;
+    background-color: transparent;
+    background-image: url(../images/image-trim.svg);
+}
+#pt1, #pt8, #pt15, #pt22, #pt29, #pt36, #pt43, #pt50, #pt57 {
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-position: center top;
+    height: 49.9vw;
+    background-attachment: fixed;
+    background-image: url(../images/image-trim-2.svg);
+}
+#pt2, #pt4, #pt6, #pt9, #pt11, #pt13, #pt16, #pt18, #pt20, #pt23, #pt25, #pt27, #pt30, #pt32, #pt34, #pt37, #pt39, #pt41, #pt44, #pt46, #pt48, #pt51, #pt53, #pt55, #pt58, #pt60, #pt62 {
+    background-image: url(../images/Mount-Everest.png);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-position: top left;
+    background-color: white;
+    width: 100vw;
+    height: 45vw;
+    background-size: 108vw auto;
+    overflow: hidden;
+    position: relative;
+}
+#pt3, #pt5, #pt10, #pt12 #pt17, #pt19, #pt24, #pt26, #pt31, #pt33, #pt38, #pt40, #pt45, #pt47, #pt52, #pt54, #pt59, #pt61 {
+    width: 100vw;
+    height: 50vw;
+    background-color: #7413dc;
+}
+#pt1 #title, #pt8 #title, #pt15 #title, #pt22 #title, #pt29 #title, #pt36 #title, #pt43 #title, #pt50 #title, #pt57 #title {
+        width: 100vw;
+        top: 19vw;
+        font-weight: bolder;
+        position: absolute;
+        display: block;
+        font-size: 4vw;
+        background-color: transparent;
+        text-decoration: none;
+        text-align: center;
+        cursor: default;
+        color: white;
+}
+#pt1 {
+    background-image: url(../images/explorer-campfire-2-jpg.jpg);
+    background-position: top center;
+}
+#pt1 #slogan {
+    width: 100vw;
+    top: 36vw;
+    font-weight: bold;
+    position: absolute;
+    display: block;
+    font-size: 2vw;
+    background-color: transparent;
+    text-decoration: none;
+    text-align: center;
+    cursor: default;
+    color: white;
+}
+#pt2 video {
+    display: block;
+    padding: 9vw 1vw;
+    width: 48vw;
+    height: auto;
+    float: left;
+    background-color: transparent;
+    border: none;
+    position: relative;
+}
+#pt2 #logo-back {
+    opacity: 0.1;
+    position: absolute;
+    left: 55vw;
+    top: 4vw;
+    width: 40vw;
+    height: auto;
+    background-color: transparent;
+}
+#pt2 #who-are-we {
+    width: 35vw;
+    display: block;
+    color: black;
+    font-size: 2vw;
+    padding: 0;
+    text-decoration: none;
+    background-color: transparent;
+    text-align: center;
+    padding: 5vw 2vw 10vw 57vw;
+}
+#pt3 {
+    width: 100vw;
+    height: 52vw;
+    cursor: default;
+}
+    #pt3 #camps-events-blur {
+        display: block;
+        position: absolute;
+        background: inherit;
+        background-position: inherit;
+        width: 25vw;
+        height: 35vw;
+        left: 6.25vw;
+        top: 100vw;
+        filter: brightness(80%);
+        border-radius: 5%;
+    }
+    #pt3 #camps-events {
+        display: block;
+        position: absolute;
+        background-position: inherit;
+        width: 23vw;
+        height: 35vw;
+        left: 7.25vw;
+        top: 100vw;
+    }
+    #pt3 #weekly-meetings-blur {
+    display: block;
+    position: absolute;
+    background: inherit;
+    background-position: inherit;
+    width: 25vw;
+    height: 35vw;
+    left: 37.5vw;
+    top: 100vw;
+    filter: brightness(80%);
+    border-radius: 5%;
+    }
+    #pt3 #weekly-meetings {
+        display: block;
+        position: absolute;
+        width: 23vw;
+        height: 35vw;
+        left: 38.5vw;
+        top: 100vw;
+    }
+    #pt3 #summer-camp-blur {
+    display: block;
+    position: absolute;
+    background: inherit;
+    background-position: inherit;
+    width: 25vw;
+    height: 35vw;
+    left: 68.75vw;
+    top: 100vw;
+    filter: brightness(80%);
+    border-radius: 5%;
+    }
+    #pt3 #summer-camp {
+        display: block;
+        position: absolute;
+        width: 23vw;
+        height: 35vw;
+        left: 69.75vw;
+        top: 100vw;
+    }
+    #pt3 title {
+        width: 23vw;
+        display: block;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        font-size: 2.5vw;
+        color: white;
+        padding: 2vw 0 3vw 0;
+    }
+    #pt3 p {
+        width: 23vw;
+        display: block;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        font-size: 1.25vw;
+        color: white;
+    }
+#pt8 {
+    background-image: url(../images/rbesu-group-photo-cut.jpg);
+    background-position: center top;
+}
+#pt15 {
+    background-image: url(../images/rbesu-group-photo-cut.jpg);
+    background-position: center top;
+}
+#pt22 {
+    background-image: url(../images/rbesu-water-activity.jpg);
+    background-position: center top;
+}
+#pt29 {
+    background-image: url(../images/rbesu-leader-reading.jpg);
+    background-position: center top;
+}
+#pt36 {
+    background-image: url(../images/rbesu-leader-reading.jpg);
+    background-position: center top;
+}
+#pt43 {
+    background-image: url(../images/rbesu-leader-reading.jpg);
+    background-position: center top;
+}
+#pt50 {
+    background-image: url(../images/explorer-belt-expedition-3-jpg.jpg);
+    background-position: center top;
+}
+#pt57 {
+    background-image: url(../images/explorer-belt-expedition-3-jpg.jpg);
+    background-position: center top;
+}
